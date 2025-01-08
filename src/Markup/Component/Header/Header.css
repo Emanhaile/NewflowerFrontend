@@ -1,0 +1,122 @@
+.header{
+    background-color: black !important ; 
+}
+.textcolor{
+  color: gold;
+}
+.weedingdesign{
+    background-color: #F2F1EF ;
+    /* background-image: url('../../../assets//images/weddind\ decore2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; */
+}
+.weedingdesign1{
+   
+    background-image: url('../../../assets//images/backgroundwedingdesign.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.inspiration{
+    display: flex;
+    justify-content: space-between;
+}
+.flowerbackground{
+    background-image: url('../../../assets/images/Wedding and event/event6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:720px;
+}
+.carousel-slide {
+    position: relative;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease; /* Add smooth transition for images */
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    bottom: 20px; /* Adjust position as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    color: white; /* Text color */
+    font-size: 2rem; /* Adjust size */
+    opacity: 0; /* Start with hidden */
+    animation: fadeIn 1s forwards; /* Fade in effect */
+  }
+  
+  /* Keyframes for fadeIn effect */
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  /* Animation for image motion */
+  @keyframes slideIn {
+    0% { transform: translateY(20px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+  }
+  
+  /* Apply slide-in animation */
+  .carousel-image {
+    animation: slideIn 0.5s ease forwards;
+  }
+  .custom-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* Space above pagination */
+  }
+  
+  .pagination-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: lightgray; /* Inactive color */
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .pagination-dot.active {
+    background: gray; /* Active color */
+  }
+    
+  .contactbanner{
+    .flowerbackground{
+        background-image: url('../../../assets//images/contactbanner.gif');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+    }
+
+  }
+  .eventdeore{
+    background-image: url('../../../assets/images/Eventdecore//event-decoration-38498456\ \(1\).jpg');
+    background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+  }
+  .bgroundcontact{
+    background-image: url('../../../assets/images/Eventdecore/contact\ bannerwedi.jpg');
+    background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+
+  }
+  /* Header Styles */
+ 

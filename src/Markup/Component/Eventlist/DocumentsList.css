@@ -1,0 +1,25 @@
+.custom-declaration-section {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 20px;
+  }
+  
+  .table-scroll-container {
+    overflow-x: auto; /* Allows horizontal scrolling */
+  }
+  
+  .table th {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* Text color for headers */
+    text-align: center; /* Center align text */
+  }
+  
+  .table td {
+    text-align: center; /* Center align table data */
+  }
+  
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
