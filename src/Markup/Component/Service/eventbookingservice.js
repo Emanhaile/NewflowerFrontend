@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3003";
+const API_URL = "https://emandecor.onrender.com";
 
 // Function to create a new event booking
 const createEventBooking = async (eventData, loggedInCustomerToken) => {

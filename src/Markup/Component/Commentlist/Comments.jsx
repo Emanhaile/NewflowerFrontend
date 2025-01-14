@@ -13,7 +13,7 @@ function Comments() {
     const fetchComments = async () => {
       try {
         // Correct API URL
-        const response = await axios.get("http://localhost:3003/api/comment");
+        const response = await axios.get("https://emandecor.onrender.com/api/comment");
         
         // Check the response structure
         console.log(response.data);
@@ -38,7 +38,7 @@ function Comments() {
   // Handle delete comment
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`http://localhost:3003/api/comment/${id}`);
+      await axios.delete(`https://emandecor.onrender.com/api/comment/${id}`);
       setComments((prevComments) => prevComments.filter((comment) => comment.id !== id));
     } catch (err) {
       setError("Failed to delete comment.");

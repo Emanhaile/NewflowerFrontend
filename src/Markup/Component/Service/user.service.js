@@ -1,5 +1,5 @@
 // user.services.js
-const API_URL = "http://localhost:3003";
+const API_URL = "https://emandecor.onrender.com";
 
 // Function to create a new user
 export const createUser = async (userData, loggedInUserToken) => {

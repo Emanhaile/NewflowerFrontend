@@ -23,7 +23,7 @@ const ResetPassword = () => {
         }
 
         try {
-            const response = await fetch(`http://localhost:3003/reset-password/${token}`, {
+            const response = await fetch(`https://emandecor.onrender.com/reset-password/${token}`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

@@ -1,6 +1,6 @@
 // Access environment variables using process.env
 // login.services.js
-const API_URL = "http://localhost:3003";
+const API_URL = "https://emandecor.onrender.com";
 
 // A function to send the login request to the server
 export const logIn = async (formData) => {

@@ -47,7 +47,7 @@ const QRScanner = () => {
 
     try {
       // Send the form data (including file) to the backend
-      const response = await axios.post('http://localhost:3003/generate-qr', formData, {
+      const response = await axios.post('https://emandecor.onrender.com/generate-qr', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },

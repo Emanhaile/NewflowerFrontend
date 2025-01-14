@@ -51,7 +51,7 @@
 
 //     try {
 //       // Send POST request to the backend to create the checkout session
-//       const response = await fetch("http://localhost:3000/create-checkout-session", {
+//       const response = await fetch("https://emandecor.onrender.com/create-checkout-session", {
 //         method: "POST",
 //         headers: {
 //           "Content-Type": "application/json",

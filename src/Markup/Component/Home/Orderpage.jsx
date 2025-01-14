@@ -17,7 +17,7 @@ const OrdersPage = () => {
   useEffect(() => {
     const fetchOrders = async () => {
       try {
-        const response = await fetch('http://localhost:3003/orders'); // Fetch all orders
+        const response = await fetch('https://emandecor.onrender.com/orders'); // Fetch all orders
         const data = await response.json();
 
         if (response.ok) {

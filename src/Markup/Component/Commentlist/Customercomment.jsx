@@ -12,7 +12,7 @@ function CustomerTestimonial() {
   useEffect(() => {
     const fetchComments = async () => {
       try {
-        const response = await axios.get("http://localhost:3003/api/comment");
+        const response = await axios.get("https://emandecor.onrender.com/api/comment");
 
         // Ensure the response is an array
         if (Array.isArray(response.data)) {

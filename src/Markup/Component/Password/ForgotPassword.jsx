@@ -16,7 +16,7 @@ const ForgotPassword = () => {
       setMessage(null);
 
       // Send request to the backend to initiate the reset process
-      const response = await axios.post("http://localhost:3003/forgot-password", { email });
+      const response = await axios.post("https://emandecor.onrender.com/forgot-password", { email });
 
       setMessage(response.data.message);
       setTimeout(() => Navigate('/login'), 3000); // Redirect to login page after success

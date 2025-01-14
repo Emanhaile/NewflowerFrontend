@@ -10,7 +10,7 @@ const OrderDetails = () => {
   useEffect(() => {
     const fetchOrder = async () => {
       try {
-        const response = await fetch(`https://localhost:3003/orders/${orderId}`);
+        const response = await fetch(`https://emandecor.onrender.com/orders/${orderId}`);
         if (!response.ok) {
           throw new Error('Order not found');
         }
